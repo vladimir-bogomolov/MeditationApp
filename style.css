@@ -74,6 +74,11 @@ video {
     border-radius: 50%;
     padding: 30px;
 }
+
+.sound-picker button:active, .sound-picker button:focus {
+    outline: none;
+}
+
 .sound-picker button:nth-child(1) {
     background: #4972a1;
 }
@@ -83,4 +88,8 @@ video {
 
 .sound-picker button img {
     height: 50%;
+}
+
+.play {
+    cursor: pointer;
 }
